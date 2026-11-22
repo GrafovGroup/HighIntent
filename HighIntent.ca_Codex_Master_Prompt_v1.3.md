@@ -128,6 +128,14 @@ Write French for Québec audiences using “demande de soumission,” “occasio
 
 ## 9. Search, accessibility and release criteria
 
+**Editorial standard · Google E-E-A-T**
+
+Start with the decision the reader came to make. Where first-hand experience helps, use work the publisher can document and share. Identify who produced or reviewed technical guidance where readers would expect it, and explain the method when it affects interpretation. Support consequential claims with the most relevant original source. Claim outside recognition or credentials only when readers can verify them.
+
+For a HighDusting.ca pilot, publish a measured result only after documenting the service area, reporting period, definition of a qualified walkthrough, source records and permission to attribute the result. Describe High Intent’s campaign work separately from the contractor’s field experience. Keep sample sales records and illustrative walkthrough photos labelled in English and Québec French.
+
+At content review, trace a material claim on a representative page back to its source. Correct, qualify or omit an unsupported claim, including in translated copy and structured data where present. [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) · [Universal master prompt](https://github.com/GrafovGroup/MasterPrompt/blob/main/MASTER_PROMPT.md).
+
 Generate unique English and French titles, descriptions and social previews. Use one clear H1 per page, descriptive internal links, self-referencing production canonicals, reciprocal en-CA/fr-CA hreflang links and an x-default route consistent with the selected default. Build the sitemap and robots file from real published routes. Include factual Organization, Service and Breadcrumb structured data where appropriate. Give preview deployments a noindex setting and check the production setting separately. Keep location claims, reviews and schema aligned with visible evidence.
 
 Serve responsive, compressed images with explicit dimensions. Prioritize the hero, lazy-load secondary imagery, respect reduced-motion preferences, and keep the mobile menu, forms and language switch keyboard-operable. Give the bubble-only home link an accessible name. Build narrow layouts for longer French labels. The language switch must open the corresponding page at any depth.
