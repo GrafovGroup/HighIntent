@@ -1,6 +1,6 @@
 # HighIntent.ca | Codex master prompt
 
-**Version 1.4 · 23 November 2026 · High Intent Inc.**
+**Version 1.5 · 24 November 2026 · High Intent Inc.**
 
 ## 1. Build the agency website
 
@@ -16,13 +16,13 @@ Complete the phases below in order. Use reversible defaults for open design deci
 
 | Item | Direction |
 |---|---|
-| Brand and domain | High Intent Inc. is the business name. High Intent is the name in prose. **high intent** is the two-word visual wordmark. The owner has acquired **HighIntent.ca**. |
+| Brand and domain | Use **High Intent** in prose and **High Intent Inc.** for the legal name and footer copyright. The owner has acquired **HighIntent.ca**. |
 | Geographic scope | Canada-wide agency coverage. For each campaign, agree on the audience and markets the client can actually serve. |
 | Who can hire High Intent | Businesses in every industry, including those selling to consumers, to other businesses or to both. Organise the website by the five marketing services. |
 | Buyer and ownership model | High Intent manages the campaigns. Each client owns its ad accounts, inquiry records and customer relationships. Each inquiry goes to the company the buyer contacted. Clients pay media platforms directly. |
-| Visual direction | Carry forward the **Say Hi** concept and the latest lowercase treatment. The speech bubble contains **hi**. Set **high intent** to its right. Omit “.ca” and “Inc.” from the logo. |
+| Visual direction | The approved emblem is the standalone white speech bubble containing a dark lowercase **hi**. Use it on its own at every size in English and French. The agency name, domain and tagline are never attached to the bubble. |
 | Colour | Use the redesigned site’s near-black, graphite and platinum palette. Keep colours in shared design tokens and use the values in section 5. |
-| Slogan | Open decision. Use the lowercase logo without a descriptor or slogan in the preview. Use an editable headline to explain the agency’s service. |
+| Slogan | A slogan remains optional editorial copy. Keep the agency descriptor and editable headline in the page layout, separate from the emblem. |
 | Geography and language | Serve Canada nationally from launch. Deliver complete English and Québec-appropriate French experiences. |
 | Contact defaults | **info@highintent.ca** and **(833) 696-9996**. Centralize both. Confirm mailbox delivery and the phone destination during launch handoff. |
 
@@ -41,7 +41,7 @@ Complete the phases below in order. Use reversible defaults for open design deci
 ## 4. Build sequence
 
 1. **Phase 0 · Establish the source.** Inventory the project, brand artwork, locale content, existing forms and deployment settings. Capture confirmed details and preview defaults in one short decision record. Preserve unrelated work.
-2. **Phase 1A · Refine the selected identity.** Use the owner's lowercase Say Hi artwork if available. Derive a horizontal wordmark and standalone bubble suitable for the browser tab and social profile. If the source is unavailable, create an editable, flat preview reconstruction from section 5 and label its status in the handoff. The previous logo rounds already satisfy concept exploration.
+2. **Phase 1A · Apply the approved emblem.** Use the supplied [standalone “hi” SVG](public/brand/bubble.svg) as the source for the header, footer, favicon, social profile and share cards. Preserve its proportions when resizing or exporting. Check it at phone-header and favicon sizes.
 3. **Phase 1B · Design the homepage.** Preview the three-section homepage in English and French on desktop and mobile. Use the monochrome identity, original abstract hero and both actions from section 7. A first-time visitor should recognise the agency and understand that it serves their industry before scrolling.
 4. **Phase 2 · Implement the site.** Build the bilingual page pairs in section 6, including the five service details. Preserve the former industry URLs as redirects. Keep the case-study template gated on real evidence. Connect the primary consultation path throughout the site.
 5. **Phase 3 · Prepare search, measurement and delivery.** Complete metadata, language routing, discovery files, inquiry handling and the checks below. Hand over the connections the owner must supply.
@@ -49,10 +49,10 @@ Complete the phases below in order. Use reversible defaults for open design deci
 
 ## 5. Visual identity and art direction
 
-- **The mark.** Place the simple rounded speech bubble with its short lower-left tail beside the bold lowercase name. Put a true lowercase h and dotted i inside. Keep a visible word space in “high intent.” Align the bubble optically with the wordmark. At small sizes, use the bubble alone where the accessible name identifies the brand. Use an SVG or other scalable approved source for the final logo when available. Keep the legal name in the footer and formal documents.
+- **The emblem.** Keep the supplied rounded white-to-platinum bubble, its short lower-left tail, and the dark lowercase h and dotted i. The SVG contains the letter outlines and can be rendered directly without loading a font. Use the emblem alone in every brand placement, including the 404 page and the Organization logo in structured data. Keep clear space around it.
 - **Palette.** Use near-black `#08090A` for the page, graphite `#141517` for surfaces, platinum `#F5F5F3` for primary text, muted silver `#B0B1B5` for secondary text and `#35363A` for fine dividers. The primary action is a light pill with dark text. Check text, controls and focus states against their actual backgrounds.
 - **Typography and layout.** Aim for a minimal, futuristic and elegant site. Use DM Sans, generous margins, large live headlines, short paragraphs and fine rules between service rows. Keep button labels in sentence case. Give the primary action visual priority and keep EN / FR accessible on desktop and mobile. The owner’s reference for spacing, typography and restraint is [Portfolite](https://www.framer.com/marketplace/templates/portfolite/).
-- **Artwork.** Reuse the original abstract brushed-titanium ribbon at the edges of the homepage hero, leaving a dark centre for the live headline. If the asset is unavailable, create an original ultrawide composition with a brushed-metal fold entering from the left, following the lower edge and rising at the far right. Keep lettering in the page layout. Localised share cards pair the same artwork with the wordmark and the page’s actual title. Keep interiors typographic. Omit product photos, trade or job-site imagery, sector galleries, and decorative showcase sections. Use the editable monochrome Say Hi mark in both languages.
+- **Artwork.** Reuse the original abstract brushed-titanium ribbon at the edges of the homepage hero, leaving a dark centre for the live headline. If the asset is unavailable, create an original ultrawide composition with a brushed-metal fold entering from the left, following the lower edge and rising at the far right. Keep lettering in the page layout. Localised share cards pair the same artwork with the standalone “hi” emblem and the page’s actual title. Keep interiors typographic. Omit product photos, trade or job-site imagery, sector galleries, and decorative showcase sections.
 
 ## 6. Pages and language pairing
 
@@ -94,7 +94,7 @@ Use one stable content ID per page and a route map for localised slugs. The foll
 
 ## 7. Homepage and preview copy
 
-Use the following English and Québec French copy as the starting point. The headline is live, editable text, separate from the logo.
+Use the following English and Québec French copy as the starting point. The headline is live, editable text, separate from the emblem.
 
 | Element | English | Français québécois |
 |---|---|---|
@@ -113,7 +113,7 @@ Use three homepage sections in this order.
 2. **Services.** Give each of the five services one linked row with a short description of what it does for the client. Link to Approach for the engagement process and commercial model.
 3. **Consultation invitation.** Close with the question above and one consultation action. Keep intake on Contact, the sample report on Reporting, and About, Coverage and Privacy in the footer.
 
-Write natural, concise French for Québec. Translate navigation, labels, metadata, alt text where meaningful, validation messages, confirmation screens and empty states. Use the lowercase “hi” mark in both locales.
+Write natural, concise French for Québec. Translate navigation, labels, metadata, alt text where meaningful, validation messages, confirmation screens and empty states. Use the same “hi” emblem in both locales.
 
 ## 8. Consultation intake, qualification and reporting
 
@@ -136,13 +136,13 @@ At content review, trace a material claim on a representative page back to its s
 
 Generate unique English and French titles, descriptions and social previews. Use one clear H1 per page, descriptive internal links, self-referencing production canonicals, reciprocal en-CA/fr-CA hreflang links and an x-default route consistent with the selected default. Build the sitemap and robots file from real published routes. Include factual Organization, Service and Breadcrumb structured data where appropriate. Give preview deployments a noindex setting and check the production setting separately. Keep location claims, reviews and schema aligned with visible evidence.
 
-Serve responsive, compressed images with explicit dimensions. Prioritize the hero, lazy-load secondary imagery, respect reduced-motion preferences, and keep the mobile menu, forms and language switch keyboard-operable. Give the bubble-only home link an accessible name. Build narrow layouts for longer French labels. The language switch must open the corresponding page at any depth.
+Serve responsive, compressed images with explicit dimensions. Prioritize the hero, lazy-load secondary imagery, respect reduced-motion preferences, and keep the mobile menu, forms and language switch keyboard-operable. Label the header and footer home links “High Intent · Home” in English and “High Intent · Accueil” in French. Use an empty alt attribute on the emblem inside these labelled links. Build narrow layouts for longer French labels. The language switch must open the corresponding page at any depth.
 
 **Definition of done for the site build**
 
 - The documented command produces a static output directory. A direct visit or refresh on an English or French nested page works on the target host. Missing pages return a useful 404.
 - Both languages include Home, Services, the five service details, Approach, Contact, Coverage, About and Privacy. Each published route opens its translation. Check that a visitor selling products or services can identify what High Intent offers and complete the consultation path without choosing an industry. All 12 former sector URLs return a permanent redirect to Services in the matching language. Case-study routes only go live with approved evidence.
-- On a small phone, the logo, CTA, French menu and language switch are legible. Check the three-section homepage at desktop and mobile widths. The live headline stays legible over the abstract artwork in both languages. Navigation and social previews carry the same monochrome identity. Confirm focus order, form labels, text contrast and reduced-motion behaviour.
+- On a small phone, the “hi” emblem, CTA, French menu and language switch are legible. Check the three-section homepage at desktop and mobile widths. The live headline stays legible over the abstract artwork in both languages. Verify that the header, footer, favicon and localised share cards use the same standalone bubble. Confirm focus order, form labels, text contrast and reduced-motion behaviour.
 - A valid request produces either verified delivery to the intended recipient in the configured environment or an explicit owner action in the handoff with contact fallback in place. Check invalid input, provider errors, repeat taps and successful confirmation. Report which path was actually exercised.
 - Published claims have a source or owner approval. No invented client logos, rankings, guarantees, employee counts, addresses, reviews, certifications, screenshots of results or revenue claims appear in pages or metadata.
 - Deliver the source files, reusable brand assets, locale and route configuration, sample environment variable names without secrets, build/deploy instructions and a short owner handoff. List what was implemented, what was verified, where the editable content lives, and what still needs a real account, destination or decision.
@@ -150,6 +150,6 @@ Serve responsive, compressed images with explicit dimensions. Prioritize the her
 
 ## 10. Owner handoff
 
-Close with a short decision table for the owner covering the monochrome palette, optional slogan, artwork approval, destination repository/host, live contact routing, provider configuration and verified proof of work. Distinguish preview-ready work from items connected and checked on the public domain.
+Close with a short decision table for the owner recording the standalone “hi” emblem as approved on 24 November 2026. List the monochrome palette, optional slogan, destination repository/host, live contact routing, provider configuration and verified proof of work with their current status. Distinguish preview-ready work from items connected and checked on the public domain.
 
 **Suggested first pilot.** Select one willing client in any industry. Agree on one offer, one audience, a measurable buying action and a source for confirming the outcome. Record the baseline, period and results. Obtain the client’s permission before publishing a case study.
