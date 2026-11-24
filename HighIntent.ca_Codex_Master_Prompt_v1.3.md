@@ -100,7 +100,7 @@ Use the following English and Québec French copy as the starting point. The hea
 |---|---|---|
 | Line above the headline | CAPTURING HIGH INTENT | CAPTER L’INTENTION D’ACHAT |
 | Headline | Your next client is already searching for you. | Votre prochain client vous cherche déjà. |
-| Supporting copy | Get found when they’re ready to buy. | Soyez là quand il est prêt à acheter. |
+| Supporting copy | We help you capture demand from buyers already searching for what you sell | Nous vous aidons à capter la demande des acheteurs qui cherchent déjà ce que vous vendez |
 | Primary action | Request a consultation | Demander une consultation |
 | Secondary action | Explore services | Voir nos services |
 | Navigation | Services · Approach · Contact | Services · Notre approche · Contact |
