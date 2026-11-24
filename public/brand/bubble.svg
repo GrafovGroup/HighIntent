@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="bubble-title">
+  <title id="bubble-title">High Intent</title>
+  <defs>
+    <linearGradient id="silver" x1="0.12" y1="0" x2="0.86" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9cace"/>
+    </linearGradient>
+  </defs>
+  <path d="M16 4h32c8.2 0 13 5.1 13 13v20.9c0 8.2-4.8 13.1-13 13.1H24L9.4 59.4c-1.1.6-2.2-.2-2-1.4l1.4-10C4.8 45.7 3 42.2 3 36.7V17C3 9 7.8 4 16 4Z"
+        fill="url(#silver)" stroke="#85868a" stroke-width="1.1"/>
+  <g fill="#101114" aria-hidden="true">
+    <path d="M15 13.5h6.1v12c1.8-2.2 4-3.4 7-3.4 5 0 8.2 3.3 8.2 9v11.4h-6.1V31.8c0-2.8-1.3-4.6-4-4.6-2.9 0-5.1 2.3-5.1 5.5v9.8H15Z"/>
+    <path d="M41.4 22.5h6.2v20h-6.2Z"/>
+    <circle cx="44.5" cy="16.1" r="3.5"/>
+  </g>
+</svg>
