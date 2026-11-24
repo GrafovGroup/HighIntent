@@ -1,12 +1,12 @@
 # HighIntent.ca | Codex master prompt
 
-**Version 1.5 · 24 November 2026 · High Intent Inc.**
+**Version 1.6 · 24 November 2026 · High Intent Inc.**
 
-## 1. Build the agency website
+## 1. Build the High Intent website
 
-Build HighIntent.ca for **High Intent Inc., a Canadian search marketing and demand generation agency serving businesses in every industry.** High Intent helps a business reach the people looking for what it offers and track which campaigns lead to sales. The five services are paid search, organic search, landing pages, inquiry management and reporting.
+Build HighIntent.ca for **High Intent Inc.** High Intent helps companies across Canada capture existing demand by reaching buyers already searching for what they sell. The name reflects the buying intent people show when they compare suppliers, check prices or request a quote. High Intent serves businesses in every industry and helps them track which campaigns lead to sales. The five services are paid search, organic search, landing pages, inquiry management and reporting.
 
-Write for the business owner or marketing lead considering High Intent. Their customers may be individuals, businesses or both. A company that sells products, services or a mix can use the same five services. Tailor each engagement to the client’s offer, audience, market and buying process. Carry this positioning through navigation, copy, intake, metadata and social previews. Claims of past work in a particular industry require evidence.
+Write for the business owner or marketing lead considering High Intent. Their customers may be individuals, businesses or both. A company that sells products, services or a mix can use the same five services. Tailor each engagement to the client’s offer, audience, market and buying process. Use this positioning in page copy, footers, intake, metadata and social previews in both languages. Remove any public self-description using “agency” or “agence” during copy review. Claims of past work in a particular industry require evidence.
 
 Read this brief before making changes. Inspect the supplied project, its instructions, assets, build commands and hosting configuration. If the site source is present, reuse its Node static generator, shared layouts, locale content and paired routes. For a fresh build, keep client-side JavaScript minimal and produce static output compatible with WHC Pro shared hosting and a Sites preview. Record the actual build command and output directory.
 
@@ -17,21 +17,21 @@ Complete the phases below in order. Use reversible defaults for open design deci
 | Item | Direction |
 |---|---|
 | Brand and domain | Use **High Intent** in prose and **High Intent Inc.** for the legal name and footer copyright. The owner has acquired **HighIntent.ca**. |
-| Geographic scope | Canada-wide agency coverage. For each campaign, agree on the audience and markets the client can actually serve. |
+| Geographic scope | High Intent serves businesses across Canada. For each campaign, agree on the audience and markets the client can actually serve. |
 | Who can hire High Intent | Businesses in every industry, including those selling to consumers, to other businesses or to both. Organise the website by the five marketing services. |
 | Buyer and ownership model | High Intent manages the campaigns. Each client owns its ad accounts, inquiry records and customer relationships. Each inquiry goes to the company the buyer contacted. Clients pay media platforms directly. |
-| Visual direction | The approved emblem is the standalone white speech bubble containing a dark lowercase **hi**. Use it on its own at every size in English and French. The agency name, domain and tagline are never attached to the bubble. |
+| Visual direction | The approved emblem is the standalone white speech bubble containing a dark lowercase **hi**. Use it on its own at every size in English and French. The company name, domain and tagline are never attached to the bubble. |
 | Colour | Use the redesigned site’s near-black, graphite and platinum palette. Keep colours in shared design tokens and use the values in section 5. |
-| Slogan | A slogan remains optional editorial copy. Keep the agency descriptor and editable headline in the page layout, separate from the emblem. |
+| Slogan | A slogan remains optional editorial copy. Set the introductory line and editable headline as live text in the page layout, separate from the emblem. |
 | Geography and language | Serve Canada nationally from launch. Deliver complete English and Québec-appropriate French experiences. |
-| Contact defaults | **info@highintent.ca** and **(833) 696-9996**. Centralize both. Confirm mailbox delivery and the phone destination during launch handoff. |
+| Contact defaults | Use **info@highintent.ca** as the sole public contact address on the site and in structured data. Centralize the email address and confirm mailbox delivery during launch handoff. |
 
 ## 3. Offer, delivery and commercial terms
 
 | Engagement | What the client receives | Commercial model |
 |---|---|---|
 | Demand review | Identify the offer, intended customers, markets and sales goal. Review search demand, existing pages, inquiries and known sales outcomes. Deliver a prioritised opportunity brief, an agreed definition of a useful conversion, a proposed landing page and a measurement plan. | Scope and quote separately or include it in setup. Make the distinction clear in the proposal. |
-| Campaign setup | Set up search campaigns for the agreed audience, build or improve landing pages, connect measurement and route inquiries to the person responsible. | One-time setup fee. Quote the scope. Document client access and separate agency fees from media costs. |
+| Campaign setup | Set up search campaigns for the agreed audience, build or improve landing pages, connect measurement and route inquiries to the person responsible. | One-time setup fee. Quote the scope. Document client access and separate service fees from media costs. |
 | Managed demand generation | Manage search terms and exclusions, improve organic content and landing pages, and reconcile campaign activity with sales outcomes. Give the client a monthly report and a short list of actions. | Monthly service fee with an agreed scope. Additional markets, languages or integrations can be priced separately. |
 
 **Start with one offer and one audience.** Agree on the buyer’s next step and how the client will recognise success. A demo request may matter to a software company, a booking to an appointment-based business, and a completed purchase to a retailer. These illustrate how the same services adapt. Use an example on a service page only when it helps explain a decision.
@@ -42,7 +42,7 @@ Complete the phases below in order. Use reversible defaults for open design deci
 
 1. **Phase 0 · Establish the source.** Inventory the project, brand artwork, locale content, existing forms and deployment settings. Capture confirmed details and preview defaults in one short decision record. Preserve unrelated work.
 2. **Phase 1A · Apply the approved emblem.** Use the supplied [standalone “hi” SVG](public/brand/bubble.svg) as the source for the header, footer, favicon, social profile and share cards. Preserve its proportions when resizing or exporting. Check it at phone-header and favicon sizes.
-3. **Phase 1B · Design the homepage.** Preview the three-section homepage in English and French on desktop and mobile. Use the monochrome identity, original abstract hero and both actions from section 7. A first-time visitor should recognise the agency and understand that it serves their industry before scrolling.
+3. **Phase 1B · Design the homepage.** Preview the three-section homepage in English and French on desktop and mobile. Use the monochrome identity, original abstract hero and both actions from section 7. A first-time visitor should understand how High Intent helps their company reach buyers who are ready to act.
 4. **Phase 2 · Implement the site.** Build the bilingual page pairs in section 6, including the five service details. Preserve the former industry URLs as redirects. Keep the case-study template gated on real evidence. Connect the primary consultation path throughout the site.
 5. **Phase 3 · Prepare search, measurement and delivery.** Complete metadata, language routing, discovery files, inquiry handling and the checks below. Hand over the connections the owner must supply.
 6. **Phase 4 · Release when commissioned.** Use the provided GitHub repository and chosen hosting destination for approved release work. Keep preview and production settings distinct. Report the actual commit, destination and deployment status when those operations occur.
@@ -51,7 +51,7 @@ Complete the phases below in order. Use reversible defaults for open design deci
 
 - **The emblem.** Keep the supplied rounded white-to-platinum bubble, its short lower-left tail, and the dark lowercase h and dotted i. The SVG contains the letter outlines and can be rendered directly without loading a font. Use the emblem alone in every brand placement, including the 404 page and the Organization logo in structured data. Keep clear space around it.
 - **Palette.** Use near-black `#08090A` for the page, graphite `#141517` for surfaces, platinum `#F5F5F3` for primary text, muted silver `#B0B1B5` for secondary text and `#35363A` for fine dividers. The primary action is a light pill with dark text. Check text, controls and focus states against their actual backgrounds.
-- **Typography and layout.** Aim for a minimal, futuristic and elegant site. Use DM Sans, generous margins, large live headlines, short paragraphs and fine rules between service rows. Keep button labels in sentence case. Give the primary action visual priority and keep EN / FR accessible on desktop and mobile. The owner’s reference for spacing, typography and restraint is [Portfolite](https://www.framer.com/marketplace/templates/portfolite/).
+- **Typography and layout.** Aim for a minimal, futuristic and elegant site. Use DM Sans, generous margins, large live headlines, short paragraphs and fine rules between service rows. Use text-only labels for links on service rows and website tiles. Keep button labels in sentence case. Give the primary action visual priority and keep EN / FR accessible on desktop and mobile. The owner’s reference for spacing, typography and restraint is [Portfolite](https://www.framer.com/marketplace/templates/portfolite/).
 - **Artwork.** Reuse the original abstract brushed-titanium ribbon at the edges of the homepage hero, leaving a dark centre for the live headline. If the asset is unavailable, create an original ultrawide composition with a brushed-metal fold entering from the left, following the lower edge and rising at the far right. Keep lettering in the page layout. Localised share cards pair the same artwork with the standalone “hi” emblem and the page’s actual title. Keep interiors typographic. Omit product photos, trade or job-site imagery, sector galleries, and decorative showcase sections.
 
 ## 6. Pages and language pairing
@@ -90,7 +90,7 @@ Use one stable content ID per page and a route map for localised slugs. The foll
 
 **Case studies.** For a future case-study collection, reserve `/en/case-studies/` and `/fr/etudes-de-cas/` until there is approved, attributable material in both languages.
 
-**National coverage.** Cover all ten provinces and three territories at the agency level. Prepare reusable province, territory, city and metro templates and release location pages when there is useful, documented local content. Prioritise Toronto/GTA, Montréal, Vancouver, Calgary, Edmonton, Ottawa–Gatineau, Québec City, Winnipeg and Halifax as content supports them. Do not imply that High Intent or its clients have unverified local offices or staff. Keep unpublished routes out of the sitemap.
+**National coverage.** Cover all ten provinces and three territories when describing High Intent’s coverage. Prepare reusable province, territory, city and metro templates and release location pages when there is useful, documented local content. Prioritise Toronto/GTA, Montréal, Vancouver, Calgary, Edmonton, Ottawa–Gatineau, Québec City, Winnipeg and Halifax as content supports them. Do not imply that High Intent or its clients have unverified local offices or staff. Keep unpublished routes out of the sitemap.
 
 ## 7. Homepage and preview copy
 
@@ -98,9 +98,9 @@ Use the following English and Québec French copy as the starting point. The hea
 
 | Element | English | Français québécois |
 |---|---|---|
-| Agency descriptor | Canadian marketing agency | Agence de marketing canadienne |
-| Headline | Get found by your next customer. | Vos futurs clients vous cherchent. |
-| Supporting copy | Whatever your industry, we build search campaigns around the people you want to reach and track which inquiries turn into sales. | Quel que soit votre secteur, nous ciblons les recherches de votre clientèle et suivons les demandes qui mènent à des ventes. |
+| Line above the headline | CAPTURING HIGH INTENT | CAPTER L’INTENTION D’ACHAT |
+| Headline | Your next client is already searching for you. | Votre prochain client vous cherche déjà. |
+| Supporting copy | Get found when they’re ready to buy. | Soyez là quand il est prêt à acheter. |
 | Primary action | Request a consultation | Demander une consultation |
 | Secondary action | Explore services | Voir nos services |
 | Navigation | Services · Approach · Contact | Services · Notre approche · Contact |
@@ -109,7 +109,7 @@ Use the following English and Québec French copy as the starting point. The hea
 
 Use three homepage sections in this order.
 
-1. **Hero.** Show the agency descriptor, headline and supporting copy over the abstract artwork. The primary action opens Contact in the current language. The secondary action jumps to the services on the same page.
+1. **Hero.** Show the introductory line, headline and supporting copy over the abstract artwork. The primary action opens Contact in the current language. The secondary action jumps to the services on the same page.
 2. **Services.** Give each of the five services one linked row with a short description of what it does for the client. Link to Approach for the engagement process and commercial model.
 3. **Consultation invitation.** Close with the question above and one consultation action. Keep intake on Contact, the sample report on Reporting, and About, Coverage and Privacy in the footer.
 
@@ -117,12 +117,12 @@ Write natural, concise French for Québec. Translate navigation, labels, metadat
 
 ## 8. Consultation intake, qualification and reporting
 
-- **Agency intake.** Ask for name, company, email, what the business offers and which markets it serves. The optional goals prompt is “What would you like your marketing to achieve?” / “Que souhaitez-vous accomplir avec votre marketing?” Phone and website are optional. During discovery, discuss intended customers, budget, capacity and how sales are recorded.
-- **Delivery.** Reuse an existing approved form provider where available. Make the endpoint configurable. Validate fields on the receiving side or through the provider, add spam protection, handle duplicate submissions and show a translated success message only after confirmed acceptance. On error, preserve input and offer retry, email and phone. When delivery is unconfigured, show working mail and phone links in place of the submit action. Use a booking CTA only once a working calendar is supplied.
+- **Consultation intake.** Ask for name, company, email, what the business offers and which markets it serves. The optional goals prompt is “What would you like your marketing to achieve?” / “Que souhaitez-vous accomplir avec votre marketing?” The visitor’s own phone number and website are optional form fields. During discovery, discuss intended customers, budget, capacity and how sales are recorded.
+- **Delivery.** Reuse an existing approved form provider where available. Make the endpoint configurable. Validate fields on the receiving side or through the provider, add spam protection, handle duplicate submissions and show a translated success message only after confirmed acceptance. On error, preserve input and offer a retry or direct email. When delivery is unconfigured, show a working email link in place of the submit action. Use a booking CTA only once a working calendar is supplied.
 - **Privacy and consent.** Explain how submitted details will be used to respond and link to the matching privacy page. Keep any optional newsletter or promotional opt-in separate and unchecked. Configure optional tracking according to the site's approved consent settings. Draft privacy copy around the vendors and data flows actually in use. Obtain the owner’s privacy contact and review the copy before release.
 - **Sales handoff.** For an inquiry-led campaign, agree with the client on qualification, ownership, response time and who records outcomes. Define fit using the buyer’s need, the offer, market and timing. Merge repeat contacts about the same opportunity. Record missed calls and reasons for disqualification so the client can act on them.
-- **Client reporting.** Measure the buying process the client actually uses. For an inquiry-led sale, follow unique inquiries through sales acceptance, the relevant next step and the won, lost or pending outcome. For a direct sale, use confirmed purchases and attributable revenue where records support them. Track setup, agency fees and media spend separately. Media cost per qualified opportunity is attributable media spend divided by unique accepted opportunities for the same campaign and period. With zero accepted opportunities, show the count and leave the ratio blank. Distinguish proposed value from confirmed revenue. Record the reporting date and account for the length of the buying cycle.
-- **High Intent’s own analytics.** Distinguish consultation-button click, consultation start, successful submission and accepted agency opportunity. Phone/email clicks indicate contact intent. Keep names, phone numbers, email addresses and free-text form responses out of analytics and URLs.
+- **Client reporting.** Measure the buying process the client actually uses. For an inquiry-led sale, follow unique inquiries through sales acceptance, the relevant next step and the won, lost or pending outcome. For a direct sale, use confirmed purchases and attributable revenue where records support them. Track setup fees, ongoing service fees and media spend separately. Media cost per qualified opportunity is attributable media spend divided by unique accepted opportunities for the same campaign and period. With zero accepted opportunities, show the count and leave the ratio blank. Distinguish proposed value from confirmed revenue. Record the reporting date and account for the length of the buying cycle.
+- **High Intent’s own analytics.** Distinguish consultation-button click, consultation start, successful submission and sales acceptance of the consultation request. Email clicks indicate contact intent. Keep names, phone numbers, email addresses and free-text form responses out of analytics and URLs.
 
 ## 9. Search, accessibility and release criteria
 
