@@ -1,6 +1,6 @@
 # HighIntent.ca | Codex master prompt
 
-**Version 1.7 · 27 November 2026 · High Intent Inc.**
+**Version 1.8 · 27 November 2026 · High Intent Inc.**
 
 ## 1. Build the High Intent website
 
@@ -140,7 +140,7 @@ For a pilot in any industry, document the client’s offer and market, reporting
 
 At content review, trace a material claim on a representative page back to its source. Correct, qualify or omit an unsupported claim, including in translated copy and structured data where present. [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) · [Universal master prompt](https://github.com/GrafovGroup/MasterPrompt/blob/main/MASTER_PROMPT.md).
 
-Generate unique English and French titles, descriptions and social previews. Use one clear H1 per page, descriptive internal links, self-referencing production canonicals, reciprocal en-CA/fr-CA hreflang links and an x-default route consistent with the selected default. Build the sitemap and robots file from real published routes. Include factual Organization, Service and Breadcrumb structured data where appropriate. Give preview deployments a noindex setting and check the production setting separately. Keep location claims, reviews and schema aligned with visible evidence.
+Use the [published SEO titles and meta descriptions](#published-seo-titles-and-meta-descriptions) for existing pages. For each new page, write a unique title and description in both languages and prepare localised social previews. Use one clear H1 per page, descriptive internal links, self-referencing production canonicals, reciprocal en-CA/fr-CA hreflang links and an x-default route consistent with the selected default. Build the sitemap and robots file from real published routes. Include factual Organization, Service and Breadcrumb structured data where appropriate. Give preview deployments a noindex setting and check the production setting separately. Keep location claims, reviews and schema aligned with visible evidence.
 
 Serve responsive, compressed images with explicit dimensions. Prioritize the hero, lazy-load secondary imagery, respect reduced-motion preferences, and keep the mobile menu, forms and language switch keyboard-operable. Label the header and footer home links “High Intent · Home” in English and “High Intent · Accueil” in French. Use an empty alt attribute on the emblem inside these labelled links. Build narrow layouts for longer French labels. The language switch must open the corresponding page at any depth.
 
@@ -153,6 +153,129 @@ Serve responsive, compressed images with explicit dimensions. Prioritize the her
 - Published claims have a source or owner approval. No invented client logos, rankings, guarantees, employee counts, addresses, reviews, certifications, screenshots of results or revenue claims appear in pages or metadata.
 - Deliver the source files, reusable brand assets, locale and route configuration, sample environment variable names without secrets, build/deploy instructions and a short owner handoff. List what was implemented, what was verified, where the editable content lives, and what still needs a real account, destination or decision.
 - For an authorized launch, confirm HTTPS, apex/www routing, canonical host, form receipt and production indexing settings on the real domain. Submit the sitemap to Google Search Console and Bing Webmaster Tools when the owner has provided access. Report submissions separately from observed indexing.
+
+### Published SEO titles and meta descriptions
+
+Use the following copy verbatim for the 34 canonical pages in the [production sitemap](https://highintent.ca/sitemap.xml). Each pair lists English first and Québec French second. The SEO title column shows the full rendered `<title>`, including the ` | High Intent` suffix. Use the same title and description for `og:title` and `og:description`. The visible homepage headlines are specified in section 7.
+
+#### Homepage
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/](https://highintent.ca/en/) | Be the Brand B2B Buyers Find \| High Intent | We help Canadian B2B companies position their brand, acquire a domain and show up in search when buyers are ready to choose a supplier. |
+| [/fr/](https://highintent.ca/fr/) | Soyez la marque que les acheteurs B2B trouvent \| High Intent | Nous aidons les entreprises B2B au Canada à bâtir leur marque, à acquérir un nom de domaine et à se faire connaître des acheteurs qui cherchent un fournisseur. |
+
+#### Services overview
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/](https://highintent.ca/en/services/) | B2B Branding and Search Marketing Services \| High Intent | Build a brand buyers recognize and get found when they compare suppliers. Explore B2B services for positioning, domains, websites, search and sales follow-up. |
+| [/fr/services/](https://highintent.ca/fr/services/) | Services de marketing B2B et de stratégie de marque \| High Intent | Du positionnement de marque aux campagnes de recherche, découvrez comment joindre les acheteurs qui comparent des fournisseurs et faciliter leurs demandes de prix. |
+
+#### Brand strategy and positioning
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/brand-positioning/](https://highintent.ca/en/services/brand-positioning/) | B2B Brand Positioning That Sets You Apart \| High Intent | Give B2B buyers a reason to shortlist you. We turn customer feedback into sales messages that explain what sets you apart and give buyers evidence to share. |
+| [/fr/services/strategie-de-marque/](https://highintent.ca/fr/services/strategie-de-marque/) | Positionnement de marque pour se démarquer en B2B \| High Intent | Donnez aux acheteurs qui comparent des fournisseurs des arguments concrets pour expliquer ce qui vous distingue et recommander votre entreprise à leurs collègues. |
+
+#### Domain acquisition
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/domain-acquisition/](https://highintent.ca/en/services/domain-acquisition/) | Acquire a Domain Name B2B Buyers Remember \| High Intent | Make it easy for a referred buyer to find you by name. We shortlist domains, approach owners with your approval and coordinate the transfer to your account. |
+| [/fr/services/acquisition-de-noms-de-domaine/](https://highintent.ca/fr/services/acquisition-de-noms-de-domaine/) | Acquisition d’un nom de domaine facile à retenir \| High Intent | Aidez les acheteurs B2B à vous retrouver après une recommandation. Nous comparons les noms de domaine et, avec votre accord, contactons le propriétaire. |
+
+#### Website and digital presence
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/digital-presence/](https://highintent.ca/en/services/digital-presence/) | B2B Websites That Show Buyers What You Can Do \| High Intent | Help buyers vet your company before they ask for a quote. We build pages with specifications and project examples, and update the profiles buyers check. |
+| [/fr/services/presence-en-ligne/](https://highintent.ca/fr/services/presence-en-ligne/) | Un site Web qui aide les acheteurs B2B à choisir \| High Intent | Aidez les acheteurs à vérifier votre savoir-faire avant de demander un prix. Nous présentons vos réalisations sur votre site et harmonisons vos profils en ligne. |
+
+#### Paid search
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/paid-search/](https://highintent.ca/en/services/paid-search/) | B2B Paid Search for Buyers Ready to Get a Quote \| High Intent | Reach buyers searching for prices, availability or a local supplier. We match each search ad to a relevant offer and refine targeting using your sales feedback. |
+| [/fr/services/publicite-sur-les-moteurs-de-recherche/](https://highintent.ca/fr/services/publicite-sur-les-moteurs-de-recherche/) | Publicité B2B sur les moteurs de recherche \| High Intent | Joignez les acheteurs qui cherchent un prix, un produit en stock ou un fournisseur local. Vos annonces les dirigent vers la page qui répond à leur demande. |
+
+#### Organic search
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/organic-search/](https://highintent.ca/en/services/organic-search/) | B2B SEO for Buyers Comparing Suppliers \| High Intent | Reach B2B buyers researching costs, specifications and supplier options. We turn the questions your sales team hears into pages that help buyers decide who to contact. |
+| [/fr/services/referencement-naturel/](https://highintent.ca/fr/services/referencement-naturel/) | Référencement naturel pour les acheteurs B2B \| High Intent | Joignez les acheteurs qui comparent des fournisseurs. Nous créons des pages qui répondent aux questions sur les prix et les services inclus dans votre offre. |
+
+#### Landing pages
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/landing-pages/](https://highintent.ca/en/services/landing-pages/) | B2B Landing Pages for Quote and Demo Requests \| High Intent | Give buyers who click your ad the offer they came for. We build pages that explain what’s included and make it easy to request pricing or book a demo. |
+| [/fr/services/pages-de-destination/](https://highintent.ca/fr/services/pages-de-destination/) | Pages de destination pour les demandes de prix \| High Intent | Après un clic sur votre annonce, montrez aux acheteurs B2B ce qui est inclus et donnez-leur un moyen simple de demander une soumission ou une démo. |
+
+#### Inquiry management
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/lead-management/](https://highintent.ca/en/services/lead-management/) | B2B Inquiry Management and Quote Follow-Up \| High Intent | Route quote requests to the right salesperson while buyers are still deciding. We set up your CRM to track who owns each inquiry and when to follow up. |
+| [/fr/services/gestion-des-demandes/](https://highintent.ca/fr/services/gestion-des-demandes/) | Suivi des demandes de prix des acheteurs B2B \| High Intent | Acheminez chaque demande de prix à la bonne personne et fixez un délai de réponse pour joindre l’acheteur pendant qu’il choisit son fournisseur. |
+
+#### Campaign reporting
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/services/reporting/](https://highintent.ca/en/services/reporting/) | B2B Campaign Reporting From Inquiry to Sale \| High Intent | See which searches bring buyers who request quotes and become customers. We connect campaign spend to sales records so you can decide where to invest next. |
+| [/fr/services/rapports-de-rendement/](https://highintent.ca/fr/services/rapports-de-rendement/) | Rapports de campagne B2B, de la demande à la vente \| High Intent | Reliez vos dépenses aux demandes de prix, aux soumissions et aux ventes conclues pour voir quelles campagnes attirent les acheteurs prêts à passer commande. |
+
+#### Approach
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/how-we-work/](https://highintent.ca/en/how-we-work/) | How We Plan B2B Marketing Around Buyer Decisions \| High Intent | Start with a recent sale. See how we trace the buyer’s decision, agree on deliverables and fees, and use sales feedback to improve your next campaign. |
+| [/fr/notre-approche/](https://highintent.ca/fr/notre-approche/) | Notre approche du marketing B2B \| High Intent | Voyez comment nous partons d’une vente récente pour comprendre le choix d’un fournisseur, définir votre projet et suivre les demandes qui mènent à une soumission. |
+
+#### About
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/about/](https://highintent.ca/en/about/) | About Our Work With B2B Suppliers \| High Intent | Learn why High Intent focuses on the moment buyers compare suppliers, and how we help your sales team give them a reason to shortlist your company. |
+| [/fr/a-propos/](https://highintent.ca/fr/a-propos/) | Notre rôle auprès des fournisseurs B2B \| High Intent | Découvrez ce qui guide le travail de High Intent. Nous aidons les entreprises à montrer leur savoir-faire aux acheteurs qui préparent une demande de prix. |
+
+#### Canadian coverage
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/canada/](https://highintent.ca/en/canada/) | B2B Marketing Across Canada \| High Intent | Reach buyers in one Canadian city, across a region or nationwide. Plan a B2B campaign around where your business can sell and the languages your buyers use. |
+| [/fr/canada/](https://highintent.ca/fr/canada/) | Marketing B2B partout au Canada \| High Intent | Joignez les acheteurs dans une ville, une région ou partout au Canada. Nous ciblons les marchés que votre équipe peut servir, dans la langue de vos clients. |
+
+#### Contact
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/contact/](https://highintent.ca/en/contact/) | Request a B2B Marketing Consultation \| High Intent | Tell us what you sell and who buys it. We’ll discuss how your brand, website or campaigns can help you reach buyers when they’re choosing a supplier. |
+| [/fr/contact/](https://highintent.ca/fr/contact/) | Demander une consultation en marketing B2B \| High Intent | Décrivez votre offre et vos marchés. Discutez avec nous de la façon de faire connaître votre marque aux acheteurs qui cherchent un fournisseur. |
+
+#### Privacy
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/en/privacy/](https://highintent.ca/en/privacy/) | Privacy for Business Inquiries and Domain Offers \| High Intent | See how High Intent uses the details you share when you request a consultation or make a domain offer, and how to ask for a correction or deletion. |
+| [/fr/confidentialite/](https://highintent.ca/fr/confidentialite/) | Confidentialité des demandes et des offres d’achat \| High Intent | Voyez comment nous utilisons vos renseignements pour répondre aux demandes de consultation et aux offres d’achat de domaine, et comment demander une correction. |
+
+#### Domains directory
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/domains/](https://highintent.ca/domains/) | Explore Domain Names for Your B2B Brand \| High Intent | Looking for a name buyers will remember? Browse our domain listings and make an offer in Canadian dollars directly to the owner. |
+| [/fr/domaines/](https://highintent.ca/fr/domaines/) | Des noms de domaine pour votre marque B2B \| High Intent | Cherchez un nom de domaine que vos acheteurs retiendront. Consultez les noms présentés et faites une offre en dollars canadiens directement au propriétaire. |
+
+#### Morning.ca domain offer
+
+| Page | SEO title | Meta description |
+|---|---|---|
+| [/domains/morning.ca/](https://highintent.ca/domains/morning.ca/) | Morning.ca May Be for Sale \| High Intent | Considering Morning.ca for your business? Send a purchase offer in Canadian dollars directly to the domain owner and share your contact details for a reply. |
+| [/fr/domaines/morning.ca/](https://highintent.ca/fr/domaines/morning.ca/) | Morning.ca pourrait être à vendre \| High Intent | Vous envisagez Morning.ca pour votre entreprise? Envoyez une offre d’achat en dollars canadiens directement au propriétaire et indiquez comment vous joindre. |
 
 ## 10. Owner handoff
 
